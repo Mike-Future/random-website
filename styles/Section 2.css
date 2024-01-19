@@ -1,0 +1,111 @@
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  row-gap: 50px;
+  column-gap: 10000px;
+  padding: 128px 0;
+}
+
+.section-2-container {
+  margin: 0px 100px;
+  padding: 0px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overview {
+  color: rgb(14 32 85);
+  margin: 0 144px 100px 144px;
+}
+
+.experience1 {
+  margin-top: 8px;
+}
+
+.services-content {
+  margin-top: 20px;
+}
+
+.first-point {
+  font-size: 16px;
+}
+
+.experience1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.services-content {
+  line-height: 35px;
+  font-weight: 300px;
+  font-size: 18px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 25px;
+  column-gap: 25px;
+  color: white;
+}
+
+.offers-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 40px;
+  background-color: rgb(14, 32, 85);
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  line-height: 24px;
+}
+
+.design {
+  background-color: white;
+  height: 64px;
+  width: 80px;
+  border-radius: 12px;
+}
+
+.offer-type {
+  margin-top: 28px;
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+
+.offer-content {
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+.offer-continue {
+  align-items: center;
+}
+
+.offer-continue-button {
+  font-size: 15px;
+  padding: 10px 14px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.offer-continue-button:hover {
+  background-color: white;
+}
+
+.offer-link {
+  text-decoration: none;
+  color: rgb(14, 32, 85);
+}

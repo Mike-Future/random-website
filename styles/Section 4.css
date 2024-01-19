@@ -1,0 +1,133 @@
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media (max-width: 100px) {
+  .section-4 {
+    flex: 1fr;
+  }
+}
+
+@media (min-width: 101px) and (max-width: 750px) {
+  .video-grid {
+    flex: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) {
+  .video-grid {
+    flex: 1fr 1fr 1fr;
+  }
+}
+
+
+.grid-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  color: rgb(14 32 85);
+  padding: 0 100px;
+  width: 757.617px;
+}
+
+.third-point {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.why-choose-us {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.whyChooseUs-content {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.grid-3 {
+  color: rgb(14 32 85);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container {
+  margin-top: 30px;
+  padding: 0 24px 32px 24px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border: 0;
+  border-top: 0;
+  text-align: center;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.bibi-stars {
+  background-color: rgb(6, 6, 72);
+  align-self: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+}
+
+.icon1 {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+
+.icon2 {
+  position: absolute;
+  top: 9px;
+  right: 11px;
+}
+
+.icon3 {
+  position: absolute;
+  top: 6px;
+  right: 9px;
+}
+
+.icon4 {
+  position: absolute;
+  top: 8px;
+  right: 7px;
+}
+
+.icon5 {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+}
+
+.icon6 {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+
+.experience2 {
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.experience-content {
+  font-size: 15px;
+}

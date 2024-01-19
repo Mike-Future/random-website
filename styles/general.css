@@ -1,0 +1,16 @@
+body {
+  font-family: Montserrat, sans-serif, Geneva, Tahoma;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-body {
+  justify-content: space-between;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
